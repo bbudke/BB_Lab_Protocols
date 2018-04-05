@@ -32,4 +32,8 @@ ___
 	- To the medium already in each well, add 0.5 ml of warm medium containing CldU for a final concentration of 20 μM. Incubate for 30 minutes if following CldU ( → HU ) ( → IdU ) or 20 minutes if following CldU → IdU ( → HU ).
 - Wash 2X with warm PBS or warm medium. Work quickly.
 - If following CldU ( → HU ) ( → IdU ) and adding HU:
-	- Add 1.0 ml medium containing 4 mM HU and any drugs or compound being studied and the vehicle in which they are dissolved
+	- Add 1.0 ml medium containing 4 mM HU and any drugs or compound being studied and the vehicle in which they are dissolved.
+- If following CldU ( → HU ) ( → IdU ) and **_not_** adding HU:
+	- Proceed to Collect Cells step.
+- If following CldU → IdU ( → HU ):
+	- Add 1.0 ml medium containing 50 μM IdU. Incubate for 20 minutes.
