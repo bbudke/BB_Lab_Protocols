@@ -7,6 +7,11 @@ ___
 - **_It is very important that cells are happy and growing prior to labeling. Do not use unhappy cells that seem to be growing sluggishly, cells that are less than 40% confluent, or more than 80% confluent. Throw the plate(s) out, re-seed new ones at an optimized density, and try again. This assay is just too time-consuming and labor-intensive to waste on unhappy cell cultures._**
 
 ## Labeling And Drug Treatment (Day 1)
+### Overview
+- Labeling times are based on what works well in U2OS cells. The labeling time should be sufficient to give fibers that are at least 10 μm long, but not so long that they are difficult to capture in one field or don't separate from adjacent fibers. Make sure fibers are sufficiently long so that there is still something to measure following HU stalling and resection.
+	- For measuring replication fork restart after stalling, the incubation time with the second label is increased to 45 minutes in order to allow time for stalled forks to restart and then replicate a sufficient length of nascent DNA to measure. This time can be adjusted if necessary.
+- A 5-hour incubation time in 4 mM HU is standard for monitoring MRE11-dependent resection of nascent DNA. Some investigators have also used a 3-hour incubation time for this purpose. An 8-hour incubation allows detection of DNA2-dependent, MRE11-independent resection of nascent DNA.
+
 ### Reagents
 - Nucleotide analogs
 	- CldU is dissolved in filtered water to 2500 μM, aliquotted, and stored ≤ -20 °C.
@@ -19,10 +24,6 @@ ___
 	- Dissolve Mirin to 50 mM in 100% DMSO and store at -20 °C.
 	- Mirin is typically used at a final concentration of 50 μM.
 	- If Mirin or other DMSO-soluble compound is added to tissue culture medium, bring the DMSO concentration in the medium to 0.1% for all samples, or to up to 0.5% for all samples if higher concentrations of compound are needed.
-- Incubation times
-	- Labeling times are based on what works well in U2OS cells. The labeling time should be sufficient to give fibers that are at least 10 μm long, but not so long that they are difficult to capture in one field or don't separate from adjacent fibers. Make sure fibers are sufficiently long so that there is still something to measure following HU stalling and resection.
-		- For measuring replication fork restart after stalling, the incubation time with the second label is increased to 45 minutes in order to allow time for stalled forks to restart and then replicate a sufficient length of nascent DNA to measure. This time can be adjusted if necessary.
-	- A 5-hour incubation time in 4 mM HU is standard for monitoring MRE11-dependent resection of nascent DNA. Some investigators have also used a 3-hour incubation time for this purpose. An 8-hour incubation allows detection of DNA2-dependent, MRE11-independent resection of nascent DNA.
 
 ### Labeling Options
 - CldU ( → HU ) ( → IdU )
@@ -44,9 +45,10 @@ ___
 		- Add 1.0 ml medium containing 50 μM IdU. Incubate for 20 minutes.
 1. Add second label (IdU), HU, or stop:
 	- If following CldU ( → HU ) ( → IdU ) and HU was added in the last step:
-		- Wash 2X with warm PBS or warm medium, working quickly.
+		- Wash 3X with warm PBS or warm medium, working quickly. Use a generous wash volume so as to completely remove the HU so that forks can restart.
 		- Add 1.0 ml medium containing 50 μM IdU and any drugs or compound being studied and the vehicle in which they are dissolved. Incubate for 45 minutes.
 	- If following CldU → IdU ( → HU ) and adding HU:
+		- Wash 2X with warm PBS or warm medium, working quickly.
 		- Add 1.0 ml medium containing 4 mM HU and any drugs or compound being studied and the vehicle in which they are dissolved. Incubate for 5 hours.
 	- If following CldU → IdU ( → HU ) and adding **_not_** HU:
 		- Proceed to Collect cells step.
@@ -81,3 +83,44 @@ The goal is to have enough cells spread and attached to the microscope slide so 
 - 2.5 N HCl, made fresh on the day of use
 - Blocking buffer
 	- 1% BSA in 1X PBS, made fresh on the day of use.
+- PFA solution
+	- 3% PFA
+	- 3.4% sucrose
+	- 1X PBS
+		- Dissolve PFA in PBS by stirring on a hot plate on medium-low heat for 20 - 30 minutes, enough to heat it to 60 - 70 °C. Cool to room temperature, add in the sucrose, and filter it through a 0.2 μm syringe filter, and place on ice or store at 4 °C. Use within 14 days.
+- Antibody dilutions
+	- CldU primary antibody (green) is rat-α-BrdU, Abcam ab6362, at 1:400.
+	- IdU primary antibody (red) is mouse-α-BrdU, BD Biosciences 347580, at 1:50
+	- Secondary antibodies are:
+		- Goat-α-rat IgG Alexa Fluor 488 conjugate, Invitrogen A11006, at 1:400
+		- Rabbit-α-mouse IgG Alexa Fluor 594 conjugate, Invitrogen A11062, at 1:400
+	- Tertiary antibodies are:
+		- Chicken-α-goat IgG Alexa Fluor 488 conjugate, Invitrogen A21467, at 1:400
+		- Donkey-α-rabbit IgG Alexa Fluor 594 conjugate, Invitrogen A21207, at 1:400
+
+### Procedure
+1. Fix DNA to slides by immersing in fixative for 10 minutes at room temperature or overnight at 4 °C.
+1. Rinse slides in water.
+1. Denature DNA by immersing in 2.5 N HCl for 80 minutes at room temperature.
+1. Wash slides in 1X PBS 3 times for 5 minutes each.
+1. Transfer slides to a damp chamber, add 200 μl blocking buffer to each slide, cover slides with a strip of Parafilm, and incubate at room temperature for 20 minutes.
+1. Remove excess blocking buffer by tapping slides onto a paper towel, add 140 μl CldU primary antibody dilution, cover slides with a strip of Parafilm, and incubate for 1 hour at room temperature.
+1. Wash slides in 1X PBS 2 times for 5 minutes each.
+1. Transfer slides to a damp chamber, add 500 μl PFA solution, and incubate at room temperature for 10 minutes.
+1. Wash slides in 1X PBS 3 times for 5 minutes each.
+1. Perform IdU primary antibody incubation, secondaries, and tertiaries:
+	- Remove excess blocking buffer by tapping slides onto a paper towel, add 140 μl antibody dilution, cover slides with a strip of Parafilm, and incubate for 1 hour at room temperature.
+	- Wash slides in 1X PBS 3 times for 5 minutes each.
+1. Dry slides by either of the two methods:
+	- Spin away excess PBS by placing individual slides into individual 50 ml open conical tubes and spinning in a clinical centrifuge for 1 minute at ~ 800 G.
+	- Wash slides in 70% ethanol, then 95% ethanol, and then 100% ethanol for 2 minutes each and air-dry.
+1. Mount long coverslips in Vectashield H-1000 (no DAPI):
+	- Distribute a total of 30 μl Vectashield as a row of drops along the length of the slide.
+	- Mount a long coverslip, pressing firmly and taking care not to move it from side to side.
+	- Blot and wipe away excess Vectashield with a Kimwipe.
+	- Seal with clear nail polish.
+
+## Image Acquisition And Analysis
+- Acquire images at 630X total magnification. This can also be done at 200X total magnification if the pixel resolution is finer than the diffraction limit of green light.
+- Acquire enough images to give at least 150 fibers per sample. Also be sure to aqcuire images from several distinct DNA spreads per sample.
+- Score fibers that are distinctly separated from each other and have distinct start and end points. To streamline the process of measuring and assembling data, try the Fibers macro that is part of [BB macros](https://github.com/bbudke/BB_macros) for [NIH ImageJ](https://imagej.nih.gov/ij/).
