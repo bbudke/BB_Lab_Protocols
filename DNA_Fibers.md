@@ -19,6 +19,9 @@ ___
 	- Dissolve Mirin to 50 mM in 100% DMSO and store at -20 °C.
 	- Mirin is typically used at a final concentration of 50 μM.
 	- If Mirin or other DMSO-soluble compound is added to tissue culture medium, bring the DMSO concentration in the medium to 0.1% for all samples, or to up to 0.5% for all samples if higher concentrations of compound are needed.
+- Incubation times
+	- Labeling times are based on what works well in U2OS cells. The labeling time should be sufficient to give fibers that are at least 10 μm long, but not so long that they are difficult to capture in one field or don't separate from adjacent fibers. Make sure fibers are sufficiently long so that there is still something to measure following HU stalling and resection.
+	- A 5-hour incubation time in 4 mM HU is standard for monitoring MRE11-dependent resection of nascent DNA. Some investigators have also used a 3-hour incubation time for this purpose. An 8-hour incubation allows detection of DNA2-dependent, MRE11-independent resection of nascent DNA.
 
 ### Labeling Options
 - CldU ( → HU ) ( → IdU )
@@ -28,12 +31,13 @@ ___
 	- _Choose this option if you only want to examine resection of nascent DNA using the ratio of IdU to CldU._
 
 ### Procedure
-- Add the first label (CldU).
+1. Add the first label (CldU).
 	- To the medium already in each well, add 0.5 ml of warm medium containing CldU for a final concentration of 20 μM. Incubate for 30 minutes if following CldU ( → HU ) ( → IdU ) or 20 minutes if following CldU → IdU ( → HU ).
-- Wash 2X with warm PBS or warm medium. Work quickly.
-- If following CldU ( → HU ) ( → IdU ) and adding HU:
-	- Add 1.0 ml medium containing 4 mM HU and any drugs or compound being studied and the vehicle in which they are dissolved.
-- If following CldU ( → HU ) ( → IdU ) and **_not_** adding HU:
-	- Proceed to Collect Cells step.
-- If following CldU → IdU ( → HU ):
-	- Add 1.0 ml medium containing 50 μM IdU. Incubate for 20 minutes.
+2. Wash 2X with warm PBS or warm medium. Work quickly.
+3. Add HU, second label, or stop:
+	- If following CldU ( → HU ) ( → IdU ) and adding HU:
+		- Add 1.0 ml medium containing 4 mM HU and any drugs or compound being studied and the vehicle in which they are dissolved.
+	- If following CldU ( → HU ) ( → IdU ) and **_not_** adding HU:
+		- Proceed to Collect Cells step.
+	- If following CldU → IdU ( → HU ):
+		- Add 1.0 ml medium containing 50 μM IdU. Incubate for 20 minutes.
