@@ -40,7 +40,7 @@ ___
 	- If following CldU ( → HU ) ( → IdU ) and adding HU:
 		- Add 1.0 ml medium containing 4 mM HU and any drugs or compound being studied and the vehicle in which they are dissolved. Incubate for 5 hours.
 	- If following CldU ( → HU ) ( → IdU ) and **_not_** adding HU:
-		- Proceed to Collect cells step.
+		- Proceed to Collect cells step in the section below.
 	- If following CldU → IdU ( → HU ):
 		- Add 1.0 ml medium containing 50 μM IdU. Incubate for 20 minutes.
 1. Add second label (IdU), HU, or stop:
@@ -51,7 +51,7 @@ ___
 		- Wash 2X with warm PBS or warm medium, working quickly.
 		- Add 1.0 ml medium containing 4 mM HU and any drugs or compound being studied and the vehicle in which they are dissolved. Incubate for 5 hours.
 	- If following CldU → IdU ( → HU ) and adding **_not_** HU:
-		- Proceed to Collect cells step.
+		- Proceed to Collect cells step in the section below.
 
 ## DNA Spreading
 ### Overview
@@ -68,28 +68,28 @@ The goal is to have enough cells spread and attached to the microscope slide so 
 
 ### Procedure
 1. Collect cells:
-	- Remove any media or PBS from the well and add ~ 1 ml *cold* PBS.
+	- Remove any media or PBS from the well and add ~ 1 ml **_cold_** PBS.
 	- Remove the cold PBS and add a few drops of cold trypsin-EDTA solution to each well. Incubate for 5 minutes at 37 °C or until cells detach. Monitor detachment by eye; do not use the microscope as this will shine a bright light on your light-sensitive samples.
-	- Add a few drops of *cold* complete medium to each well. Transfer each well's contents to a 1.5 ml tube on ice and spin down in a clinical centrifuge for 3 minutes at 500 G.
-	- Remove the supernatant and resuspend cells in 1 ml *cold* PBS or a volume that you think will give about 200 cells per μl. Count the cells in each sample using the hemocytometer (the counts do not need to be very accurate). Dilute or concentrate each sample to about 200 cells per μl. Keep samples on ice and covered when not in use.
+	- Add a few drops of **_cold_** complete medium to each well. Transfer each well's contents to a 1.5 ml tube on ice and spin down in a clinical centrifuge for 3 minutes at 500 G.
+	- Remove the supernatant and resuspend cells in 1 ml **_cold_** PBS or a volume that you think will give about 200 cells per μl. Count the cells in each sample using the hemocytometer (the counts do not need to be very accurate). Dilute or concentrate each sample to about 200 cells per μl. Keep samples on ice and covered when not in use.
 1. Lyse cells and spread DNA onto glass slides:
-	- Perform this step in groups of up to eight slides so that you have enough time to work on each sample. For each slide, place a pair of 2 μl drops of cell suspension at the top (close to the frosted end) of the slide. Allow the drops to partially dry until they look flat and slightly tacky. _Do not allow the spots to over-dry._ When a spot appears to have dried to the right point, add a 10 μl drop of lysis buffer to each drop of cells and incubate 2-3 minutes at room temperature. The spots will reach this point at different times, hence the reason for doing this step in batches of no more than eight slides. After the 2-3 minute incubation, tilt the slide 15 - 20 ° by placing one end of it on an Eppendorf tube rack and allow the drops of lysate to run to the bottom. Blot away excess lysate at the bottom of the slide by tapping it onto a paper towel.
+	- Perform this step in groups of up to eight slides so that you have enough time to work on each sample. For each slide, place a pair of 2 μl drops of cell suspension at the top (close to the frosted end) of the slide. Allow the drops to partially dry until they look flat and slightly tacky. **_Do not allow the spots to over-dry._** When a spot appears to have dried to the right point, add a 10 μl drop of lysis buffer to each drop of cells and incubate 2-3 minutes at room temperature. The spots will reach this point at different times, hence the reason for doing this step in batches of no more than eight slides. After the 2-3 minute incubation, tilt the slide 15 - 20 ° by placing one end of it on an Eppendorf tube rack and allow the drops of lysate to run to the bottom. Blot away excess lysate at the bottom of the slide by tapping it onto a paper towel.
 1. Allow the slides to dry protected from light for at least 30 minutes. They can be dried overnight if need be.
 
 ## Immunostaining
 ### Reagents
 - Fixative
-	- 3:1 methanol : glacial acetic acid, made fresh on the day of use.
+	- 3:1 methanol : glacial acetic acid, made fresh on the day of use
 - 2.5 N HCl, made fresh on the day of use
 - Blocking buffer
-	- 1% BSA in 1X PBS, made fresh on the day of use.
+	- 1% BSA in 1X PBS, made fresh on the day of use
 - PFA solution
 	- 3% PFA
 	- 3.4% sucrose
 	- 1X PBS
 		- Dissolve PFA in PBS by stirring on a hot plate on medium-low heat for 20 - 30 minutes, enough to heat it to 60 - 70 °C. Cool to room temperature, add in the sucrose, and filter it through a 0.2 μm syringe filter, and place on ice or store at 4 °C. Use within 14 days.
 - Antibody dilutions
-	- CldU primary antibody (green) is rat-α-BrdU, Abcam ab6362, at 1:400.
+	- CldU primary antibody (green) is rat-α-BrdU, Abcam ab6362, at 1:400
 	- IdU primary antibody (red) is mouse-α-BrdU, BD Biosciences 347580, at 1:50
 	- Secondary antibodies are:
 		- Goat-α-rat IgG Alexa Fluor 488 conjugate, Invitrogen A11006, at 1:400
