@@ -2,7 +2,7 @@
 Adapted from protocol by Yuen-Ling Chan (University of Chicago)
 ___
 ## Overview
-The D-loop assay detects homologous strand invasion catalyzed by recombinase proteins such as RecA and RAD51. A labeled oligonucleotide (e.g. a 90-mer with a 5' Cy5 or <sup>32</sup>P label)
+The D-loop assay detects homologous strand invasion catalyzed by recombinase proteins such as RecA and RAD51. A labeled oligonucleotide (e.g. a 90-mer with a 5' Cy5 or <sup>32</sup>P label) is first incubated with recombinase protein to allow formation of nucleoprotein filaments and then a negatively-supercoiled dsDNA plasmid with homology to the oligonucleotide is added. Strand invasion is detected as a slower-migrating band on an agarose gel corresponding to the labeled oligonucleotide complexed with the plasmid.
 
 ## Gel Preparation
 - Make gels and buffers the day of use.
@@ -18,6 +18,14 @@ The D-loop assay detects homologous strand invasion catalyzed by recombinase pro
 - Recombinase proteins: These should be stored in single-use aliquots at -80 °C that have undergone no more than three total freeze-thaw cycles.
 - The supercoiled dsDNA plasmid target is CsCl-purified plasmid from _E. coli_. There should be no more than 5% nicked plasmid in the preparation.
 - Store ATP, TCEP/DTT, BSA, and ssDNA at -20 °C in aliquots. The dsDNA is kept in storage aliquots at -20 °C, with a single working aliquot being kept at 4 °C to limit freeze-thaw cycles.
+- For any drugs or compounds to be tested, these are stored at -20 °C in 100% DMSO (or other solvent if DMSO is not suitable) at 50 mM or less if not soluble at this concentration. In all assays where compounds are being tested, DMSO is included in all samples at a final concentration of XX % at the time of dsDNA addition, even for compounds that are formulated in water and not DMSO (e.g. chloroquine).
 
 ### Procedure
-1. 
+1. Prepare dilutions of compounds in their storage solvent (usually 100% DMSO) to XX X their final concentration at the time of dsDNA addition.
+1. Prepare a 5X D-loop reaction buffer master mix:
+
+Item | Conc. units | Stock conc. | Master mix conc. | Final conc.
+--- | --- | --- | --- | ---
+HEPES-NaOH pH 7.2 | mM | 1000 | 125 | 25
+ATP | mM | 100 | 5 | 1
+MgCl<sub>2</sub> | mM | 100 | 5 | 1
