@@ -25,7 +25,7 @@ The D-loop assay detects homologous strand invasion catalyzed by recombinase pro
 1. Prepare a 5X D-loop reaction buffer master mix:
 
 Item | Conc. units | Stock conc. | Master mix conc. | Final conc.
---- | --- | --- | --- | ---
+:--- | ---: | ---: | ---: | ---:
 HEPES-NaOH pH 7.2 | mM | 1000 | 125 | 25
 ATP | mM | 100 | 5 | 1
 MgCl<sub>2</sub> | mM | 100 | 5 | 1
