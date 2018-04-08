@@ -30,7 +30,7 @@ Item | Conc. units | Stock conc. | Master mix conc. | Final conc.
 HEPES-NaOH pH 7.2 | mM | 1000 | 125 | 25
 ATP | mM | 100 | 5 | 1
 MgCl<sub>2</sub> | mM | 100 | 5 | 1
-TCEP or DTT | 100 | 5 | 1
+TCEP or DTT | mM | 100 | 5 | 1
 BSA | μg/ml | 6600 | 500 | 100
 
 1. Prepare a 10X dilution of recombinase protein in appropriate protein dilution buffer.
@@ -43,12 +43,12 @@ Item | Amount per reaction | Part of master mix
 :--- | ---: | :---:
 5X D-loop reaction buffer | 2 μl | Y
 10X recombinase or buffer | 1 μl | Y
-Ultrapure water | 3 μl† | Y
+Ultrapure water | 3 μl<sup>†</sup> | Y
 4.5X compound in 22.5% DMSO | 2 μl |
 10X labeled ssDNA | 1 μl |
 10X supercoiled dsDNA | 1 μl |
 
-† 5 μl if not testing compounds.
+	† 5 μl if not testing compounds.
 
 1. To the compound dilutions in 100% DMSO above, add 3.44 volumes of water so that the compounds are now at 4.5X their final concentration at the time of nucleoprotein filament formation. This will also bring the DMSO concentration in the dilutions to 22.5%, which is 4.5X the final concentration of 5% at the time of nucleoprotein filament formation. If the compounds were made in water instead of DMSO, then dilute them to 4.5X using water + 22.5% DMSO so that all reactions contain the same amount of DMSO regardless of what compound is being tested.
 1. Pre-incubate compounds with RAD51 in reaction buffer: combine 
