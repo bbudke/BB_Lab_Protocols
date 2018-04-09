@@ -11,13 +11,15 @@ ___
 - Labeling times are based on what works well in U2OS cells. The labeling time should be sufficient to give fibers that are at least 10 μm long, but not so long that they are difficult to capture in one field or don't separate from adjacent fibers. Make sure fibers are sufficiently long so that there is still something to measure following HU stalling and resection.
 	- For measuring replication fork restart after stalling, the incubation time with the second label is increased to 45 minutes in order to allow time for stalled forks to restart and then replicate a sufficient length of nascent DNA to measure. This time can be adjusted if necessary.
 - A 5-hour incubation time in 4 mM HU is standard for monitoring MRE11-dependent resection of nascent DNA. Some investigators have also used a 3-hour incubation time for this purpose. An 8-hour incubation allows detection of DNA2-dependent, MRE11-independent resection of nascent DNA.
+- All the samples are initially set up at the same time and processed at each time point. The samples at each time point occupy their own plate; samples for the same time point are never spread across multiple plates nor are all samples from a multiple time point experiment allocated to the same plate. For time points at which some samples are to be stopped and collected and some are to receive a media change and returned to the incubator, the handling priority at this point is to add cold PBS to the plate that is to be stopped, add media ± other reagents to the respective plates and return them to the incubator, and then proceed with collecting cells in the stopped plate.
+- Work quickly when cells are out of the incubator and still growing; plates should be out of the incubator for no more than 2 minutes at a time during handling steps.
 
 ### Reagents
 - Nucleotide analogs
 	- CldU is dissolved in filtered water to 2500 μM, aliquotted, and stored ≤ -20 °C.
 	- IdU is dissolved in filtered water to 5000 μM, aliquotted, and stored ≤ -20 °C.
 	- Warm up nucleotide analogs in a 37 °C water bath prior to use. The IdU may need to be heated in a 65 °C water bath for a few minutes to get it all into solution.
-	- CldU is added to a final concentration of 20 μM and IdU is added to a final concentration of 50 μM. These concentrations can be modified, but keep in mind that high concentrations of either can slow or stall forks (remember, the cells need to be happily growing right up to the point of HU addition in order to get decent resection of nascent DNA in cell lines where this is expected to occur). Another good reason to limit analog concentrations is that upon exposure to light the analogs can cause strand breakage in DNA.
+	- CldU is added to a final concentration of 20 μM and IdU is added to a final concentration of 50 μM. These concentrations can be modified, but keep in mind that high concentrations of either analog can slow or stall forks (remember, the cells need to be happily growing right up to the point of HU addition in order to get decent resection of nascent DNA in cell lines where this is expected to occur). Another good reason to limit analog concentrations is that upon exposure to light the incorporated analogs can cause strand breakage in DNA.
 	- **_Keep nucleotide analogs protected from light. Work in the biosafety cabinet with the light off and protect samples from light from the time that the nucleotide analogs are added to the end of the experiment. Brief exposure to room lights is okay during handling._**
 - Drugs and compounds
 	- HU is stored dry at room temperature. On the morning of use, dissolve a few milligrams (as needed) in filtered water to a final concentration of 100 mM.
@@ -34,14 +36,20 @@ ___
 
 ### Procedure
 1. Add the first label (CldU).
-	- To the medium already in each well, add 0.5 ml of warm medium containing CldU for a final concentration of 20 μM. Incubate for 30 minutes if following CldU ( → HU ) ( → IdU ) or 20 minutes if following CldU → IdU ( → HU ).
-1. Wash 2X with warm PBS or warm medium. Work quickly.
+	- To the 1.0 ml of medium already in each well, add 0.5 ml of warm medium containing CldU for a final concentration of 20 μM.
+	- If following CldU ( → HU ) ( → IdU ):
+		- Incubate for 30 minutes.
+	- If following CldU → IdU ( → HU ):
+		- Incubate for 20 minutes.
 1. Add HU, second label (IdU), or stop:
 	- If following CldU ( → HU ) ( → IdU ) and adding HU:
+		- Wash 2X with warm PBS or warm medium. Work quickly.
 		- Add 1.0 ml medium containing 4 mM HU and any drugs or compound being studied and the vehicle in which they are dissolved. Incubate for 5 hours.
 	- If following CldU ( → HU ) ( → IdU ) and **_not_** adding HU:
+		- Wash 2X with warm PBS or warm medium. Work quickly.
 		- Proceed to Collect cells step in the section below.
 	- If following CldU → IdU ( → HU ):
+		- Wash 2X with warm PBS or warm medium. Work quickly.
 		- Add 1.0 ml medium containing 50 μM IdU. Incubate for 20 minutes.
 1. Add second label (IdU), HU, or stop:
 	- If following CldU ( → HU ) ( → IdU ) and HU was added in the last step:
@@ -76,7 +84,7 @@ The goal is to have enough cells spread and attached to the microscope slide so 
 	- Perform this step in groups of up to eight slides so that you have enough time to work on each sample. For each slide, place a pair of 2 μl drops of cell suspension at the top (close to the frosted end) of the slide. Allow the drops to partially dry until they look flat and slightly tacky. **_Do not allow the spots to over-dry._** When a spot appears to have dried to the right point, add a 10 μl drop of lysis buffer to each drop of cells and incubate 2-3 minutes at room temperature. The spots will reach this point at different times, hence the reason for doing this step in batches of no more than eight slides. After the 2-3 minute incubation, tilt the slide 15 - 20 ° by placing one end of it on an Eppendorf tube rack and allow the drops of lysate to run to the bottom. Blot away excess lysate at the bottom of the slide by tapping it onto a paper towel.
 1. Allow the slides to dry protected from light for at least 30 minutes. They can be dried overnight if need be.
 
-## Immunostaining
+## Immunostaining (Day 2)
 ### Reagents
 - Fixative
 	- 3:1 methanol : glacial acetic acid, made fresh on the day of use
@@ -88,7 +96,7 @@ The goal is to have enough cells spread and attached to the microscope slide so 
 	- 3.4% sucrose
 	- 1X PBS
 		- Dissolve PFA in PBS by stirring on a hot plate on medium-low heat for 20 - 30 minutes, enough to heat it to 60 - 70 °C. Cool to room temperature, add in the sucrose, and filter it through a 0.2 μm syringe filter, and place on ice or store at 4 °C. Use within 14 days.
-- Antibody dilutions
+- Antibody dilutions in blocking buffer
 	- CldU primary antibody (green) is rat-α-BrdU, Abcam ab6362, at 1:400
 	- IdU primary antibody (red) is mouse-α-BrdU, BD Biosciences 347580, at 1:50
 	- Secondary antibodies are:
@@ -111,6 +119,7 @@ The goal is to have enough cells spread and attached to the microscope slide so 
 1. Perform IdU primary antibody incubation, secondaries, and tertiaries:
 	- Remove excess blocking buffer by tapping slides onto a paper towel, add 140 μl antibody dilution, cover slides with a strip of Parafilm, and incubate for 1 hour at room temperature.
 	- Wash slides in 1X PBS 3 times for 5 minutes each.
+	- Repeat for all remaining antibodies. Antibody incubations are done in the order of IdU primary, secondary antibodies, and tertiary antibodies.
 1. Dry slides by either of the two methods:
 	- Spin away excess PBS by placing individual slides into individual 50 ml open conical tubes and spinning in a clinical centrifuge for 1 minute at ~ 800 G.
 	- Wash slides in 70% ethanol, then 95% ethanol, and then 100% ethanol for 2 minutes each and air-dry.
@@ -118,9 +127,13 @@ The goal is to have enough cells spread and attached to the microscope slide so 
 	- Distribute a total of 30 μl Vectashield as a row of drops along the length of the slide.
 	- Mount a long coverslip, pressing firmly and taking care not to move it from side to side.
 	- Blot and wipe away excess Vectashield with a Kimwipe.
-	- Seal with clear nail polish.
+	- Seal the edges of the coverslip with clear nail polish.
 
 ## Image Acquisition And Analysis
 - Acquire images at 630X total magnification. This can also be done at 200X total magnification if the pixel resolution is finer than the diffraction limit of green light.
-- Acquire enough images to give at least 150 fibers per sample. Also be sure to aqcuire images from several distinct DNA spreads per sample.
+- Acquire enough images to give at least 150 fibers per sample. Also be sure to aqcuire images from several distinct DNA spreads per sample. There can be considerable variation in fiber lengths between different spreads; try to collect images that are representative of what you see across the entire slide. Collect images of fiber spreads that are:
+	1. Physically intact, e.g. not having large artificial gouges running through the spread.
+	1. Clearly and brightly stained.
+	1. Having fibers clearly separated from each other.
+	1. Having fibers that are lying mostly straight and parallel to each other.
 - Score fibers that are distinctly separated from each other and have distinct start and end points. To streamline the process of measuring and assembling data, try the Fibers macro that is part of [BB macros](https://github.com/bbudke/BB_macros) for [NIH ImageJ](https://imagej.nih.gov/ij/).
