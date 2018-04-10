@@ -74,4 +74,4 @@ Total volume | 10 μl |
 - Run the gels at 60 V (3 V/cm), up to 120 mA per gel to avoid overheating. Run the gels for 2.5 hours at room temperature. It is not necessary to cover up the gels if a fluorescent oligo is being used, though the gels should not be in direct sunlight. If the electric current is too high, lower the voltage and increase the running time accordingly so that the gels are run the right distance without overheating.
 - Gel imaging:
 	- For fluorescent oligo detection, rinse the gel thoroughly with distilled water, transfer the wet gels to an appropriate imager (e.g. a Typhoon scanner equipped with Cy5 filters), set the focal plane to + 3 mm, select 100 px/cm resolution, set the mode to fluorescence, select the appropriate filter, select to normal sensitivity, and set the PMT voltage to 600 (the default).
-	- For detection of <sup>32</sup>P, refer to the [Gel Drying And Imaging For Radioactive Gels protocol](Gel_Drying_And_Imaging.md)
+	- For detection of <sup>32</sup>P, refer to the [Gel Drying And Imaging For Radioactive Gels protocol](Gel_Drying_And_Imaging.md).
