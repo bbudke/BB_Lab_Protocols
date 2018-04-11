@@ -91,5 +91,5 @@ The transfection parameters and plating densities below are optimized for 293-HE
 1. Analyze the data in FlowJo, create a table containing the number of total, non-debris, single cell, live cell, and GFP+ events for each sample, and create a batch layout where each page contains flow cytometry plots for a single sample.
 	- Use the pCAGGS negative control to draw gates on the FITC vs PerCP-Cy5.5 and FITC vs PE plots. Apply these gates to the rest of the samples.
 	- If compounds that impart fluorescence to cells are being tested, pCAGGS controls should have been set up for each dose of each compound. Set up gates as above for each dose of each compound and apply them to the rest of the samples having the same dose of the same compound.
-	- Shown beloew is an example of gating done on the pCAGGS control, which is copied to the pBAS_Sce_ sample. _Note that the FSC-H and FSC-W axis labels are switched for some reason when obtaining data on the LSRII and analyzing in FlowJo_.
+	- Shown below is an example of gating done on the pCAGGS control, which is copied to the pBAS_Sce_ sample. _Note that the FSC-H and FSC-W axis labels are switched for some reason when obtaining data on the LSRII and analyzing in FlowJo_.
 ![FACS Gating Example](Images/FACS_Gating_Example.png)
