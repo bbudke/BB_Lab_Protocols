@@ -20,6 +20,7 @@ In order to facilitate precise measurement of the apparent size of DNA topoisome
 	- Negatively supercoiled plasmid DNA is CsCl-purified from _E. coli_. Refer to the protocol for [CsCl Purification Of Supercoiled Plasmid DNA](CsCl_Plasmid_Prep.md).
 	- Relaxed closed circular plasmid DNA is prepared from CsCl-purified negatively supercoiled plasmid DNA by following the protocol for [Preparation Of Relaxed Closed Circular dsDNA](Topo_Relaxed_DNA.md).
 	- I routinely use pRS306, which is 4,373 bp long. Small plasmids work best for this assay because the topoisomers with the lowest absolute linking number are better resolved from the relaxed DNA.
+- Gel loading dry with xylene cyanol FF.
 
 ### Procedure
 1. Prepare 1X TAE sufficient for all gels and gel rigs, plus dead volume.
@@ -27,3 +28,22 @@ In order to facilitate precise measurement of the apparent size of DNA topoisome
 	- The running buffer in each gel rig uses 290 ml total volume.
 	- Adjust the amount of water used to make up the 1X TAE to account for the final concentration of 4% DMSO in all solutions. The DMSO ± compound will contribute 1/25<sup>th</sup> of the final volume.
 1. Prepare a sufficient volume of a 25X dilution of each compound in 100% DMSO for both the gel and the running buffer.
+1. Prepare a molten agarose stock sufficient for all gels, plus dead volume.
+	- Remember to replace any evaporated water by bringing the volume of the molten agarose back up to the original volume with ultrapure water.
+1. Distribute molten agarose and 1X TAE running buffer into clean flasks for each gel to be run. Once the molten agarose has cooled to 55 - 60 °C, add DMSO ± compound to each respective flask, mix, and pour into casting trays.
+1. Add DMSO ± compound to each respective flask of running buffer and mix.
+1. Load gels with 5.0 - 7.5 μl ladder and 150 ng per lane of plasmid. I typically load the following lanes:
+	- Ladder
+	- Supercoiled pRS306
+	- Topoisomerase I-relaxed pRS306, prep 1
+	- Ladder
+	- Supercoiled pRS306
+	- Topoisomerase I-relaxed pRS306, prep2
+	- Ladder
+1. Run the gels at 5 V/cm until the xylene cyanol has migrated 2/3 the length of the gel, about 2 1/2 hours.
+	- The gels will give off a smell of old cabbage as they are running, which is due to oxidation of the DMSO.
+1. Stain the gels for 30 minutes in 0.5 μg/ml ethidium bromide in water, rinse in distilled water, and de-stain for 30 minutes in distilled water.
+1. Photograph gels under UV transillumination.
+
+## Analysis Of Agarose Gel Images
+### Overview
