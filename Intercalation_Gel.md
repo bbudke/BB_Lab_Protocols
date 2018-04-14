@@ -5,9 +5,9 @@ ___
 ### Overview
 This assay measures the extent to which compounds intercalate dsDNA by running negatively supercoiled or relaxed covalently closed circular plasmid DNA through an agarose gel containing the compound to be tested. The compound is also present at the same concentration in the running buffer. Intercalation is detected as faster migration of the relaxed covalently closed plasmid through the gel as positive supercoils are introduced by compound intercalation. The migration of the relaxed plasmid is very sensitive to intercalation, as the introduction of a single positive supercoil can produce a detectable change in migration speed. Thus, very weak intercalators can be studied using this technique. Intercalation can also be detected as slower migration of the negatively supercoiled plasmid, which is relaxed by compound intercalation, though this effect is only visually obvious with stronger intercalators. Each concentration of each compound to be tested requires setting up a separate gel and rig, making the assay very low-throughput. However the assay is very sensitive and has fewer moving parts than intercalation assays that rely on enzymes to nick and reseal circular DNA in the presence of an intercalator, with the assumption that the intercalating compound does not directly interfere with the activities of the enzymes themselves.
 
-The protocol below is optimized for compounds formulated in 100% DMSO. The final concentration of DMSO in the gel and running buffer is 4%. The presence of 4% DMSO does not appear to influence the migration of circular DNA relative to the linear dsDNA ladder.
+The protocol below is optimized for compounds formulated in 100% DMSO. The final concentration of DMSO in the gel and running buffer is 4%. The presence of 4% DMSO does not appear to influence the migration of circular DNA relative to the linear dsDNA ladder. Include a DMSO-only control gel for each experiment.
 
-In order to facilitate precise measurement of the apparent size of DNA topoisomers, each plasmid lane is run adjacent to a lane loaded with linear dsDNA ladder.
+In order to facilitate precise measurement of the apparent sizes of DNA topoisomers, each plasmid lane is run adjacent to a lane loaded with linear dsDNA ladder.
 
 ### Equipment And Reagents
 - One agarose minigel rig for each concentration of each compound to be tested.
@@ -47,3 +47,13 @@ In order to facilitate precise measurement of the apparent size of DNA topoisome
 
 ## Analysis Of Agarose Gel Images
 ### Overview
+Intercalation is quantified by measuring the median distance of topoisomer migration relative to the position of the relaxed band and the expected position for the fully-supercoiled band. The lanes containing supercoiled plasmid DNA in the DMSO-only control gel provide the expected position of the fully-supercoiled band, while the position of the relaxed band is obtained from the same lane containing topoisomers to be measured, since intercalation does not affect the migration of this band relative to the linear dsDNA markers.
+
+### Example Workflow
+1. Make a two-dimensional plot of DNA staining intensity vs distance migrated in pixels or centimeters for each lane of each gel.
+1. For the plot of each lane, convert the distance migrated in pixels or centimeters to the apparent base pair distance migrated, using the adjacent ladder for each lane.
+1. For the plot of each lane containing relaxed DNA, mark the positions of the relaxed band and the expected position of the fully-supercoiled band, which is the position of the supercoiled DNA band in the DMSO-only control.
+1. For the plot of each lane containing relaxed DNA, calculate the median distribution of topoisomers.
+	- Take the area under the curve containing all the topoisomers. The median is the point along the x-axis that divides this area in half.
+	- Be sure to include the topoisomer band with the lowest absolute linking number, which may appear as a shoulder on the relaxed DNA band.
+1. An 'intercalation score' can be calculated as any additional distance that the median distribution of topoisomers shifts in compound-containing gels compared to the DMSO-only control gel.
