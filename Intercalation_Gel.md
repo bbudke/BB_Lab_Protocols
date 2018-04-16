@@ -20,7 +20,7 @@ In order to facilitate precise measurement of the apparent sizes of DNA topoisom
 	- Negatively supercoiled plasmid DNA is CsCl-purified from _E. coli_. Refer to the protocol for [CsCl Purification Of Supercoiled Plasmid DNA](CsCl_Plasmid_Prep.md).
 	- Relaxed closed circular plasmid DNA is prepared from CsCl-purified negatively supercoiled plasmid DNA by following the protocol for [Preparation Of Relaxed Closed Circular dsDNA](Topo_Relaxed_DNA.md).
 	- I routinely use pRS306, which is 4,373 bp long. Small plasmids work best for this assay because the topoisomers with the lowest absolute linking number are better resolved from the relaxed DNA.
-- Gel loading dry with xylene cyanol FF.
+- Gel loading dye with xylene cyanol FF.
 
 ### Procedure
 1. Prepare 1X TAE sufficient for all gels and gel rigs, plus dead volume.
