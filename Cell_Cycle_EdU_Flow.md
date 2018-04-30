@@ -1,5 +1,6 @@
 # Determination Of Cell Cycle And EdU Incorporation By Flow Cytometry
 By Brian Budke
+Adapted from ThermoFisher Click-it EdU kit instructions and Sun _et al_ 2012 (Cytometry A 81A:901-909).
 ___
 ## Treatment And Labeling Of Cells
 ### Overview
@@ -24,6 +25,7 @@ ___
 ## Click Reaction To Detect EdU Incorporation
 ### Overview
 - Cells are harvested, washed, fixed, and permeabilized so that total DNA can be stained with PI and incorporated EdU can be tagged with a dye-azide. RNAse is added so that only DNA is stained by PI. EdU is tagged via a cycloaddition reaction between the alkyne group of EdU and the azide group of the dye. The cycloaddition reaction is catalyzed by Cu(I), which is provided by Cu(II) in a mildly-reducing environment. Sodium ascorbate is used as a reducing agent and must be prepared fresh within minutes of use. Sulfo-cyanine 5 azide is used below, though any dye azide can be used.
+- Any DNA stain such as DAPI or PI can be used, as long as there isn't too much bleed-through with the dye used to detect EdU.
 - It is convenient to transfer samples to 1.5 ml tubes following trypsinization and centrifugation; these tubes can be stacked into 50 ml conical vials and spun in a clinical centrifuge. When removing supernatants, decant and leave a small amount to keep the pellet from going dry. To prevent clumping, cells should be spun down at the lowest speed that will give a pellet. This is typically 300g - 500g. Resuspension should also be done as gently as possible; simply pipetting a stream of buffer directly onto the pellet should be enough to completely resuspend it, assuming the cells were not spun down too hard.
 - Time consideration: there are 60 minutes total incubation time and almost half an hour of centrifugation time. This doesn't include handling time. When processing 40 samples following the procedure below, it took me 4 hours from the start of trypsinization to having all the samples in flow tubes.
 
@@ -39,7 +41,8 @@ ___
 - Click reaction buffer
 	- 1X TBS (PBS will cause CuSO<sub>4</sub> to crash out)
 	- 2 mM CuSO<sub>4</sub>
-	- 0.1 μM sulfo-cyanine 5 azide (added from a 1 - 10 mM stock made in 100% DMSO)
+	- 0.2 μM sulfo-cyanine 5 azide (added from a 1 - 10 mM stock made in 100% DMSO)
+		- 10 uM in Cytometry A (2012) 81A:901-909
 	- 20 mM sodium ascorbate (added from a 1 M stock made in water within the last 15 minutes)
 	- 10% DMSO
 	- Make fresh within minutes of use. Protect from light.
@@ -49,6 +52,7 @@ ___
 	- 1% BSA
 	- 0.5% Triton X-100
 	- 50 μg/ml DNAse-free RNAse A
+		- Required if PI is used; optional for DAPI
 	- 50 μg/ml PI (also make a smaller aliquot of buffer without PI for the PI-negative controls)
 - Polypropylene 1 ml micro titer tubes (Genesee 14-144) nested into polystyrene 5 ml flow cytometry tubes (Falcon 352008)
 - Styrofoam box with blue ice packs. The box should be large enough to hold a rack of flow cytometry tubes.
@@ -59,9 +63,12 @@ ___
 1. Spin down the cells, remove the supernatant, and resuspend each sample in 100 μl of fixative solution. Incubate at room temperature for 15 minutes.
 1. Spin down the cells, remove the supernatant, and resuspend each sample to ~10<sup>6</sup> cells per ml in wash buffer.
 1. Spin down the cells, remove the supernatant, and resuspend each sample in 100 μl of permeabilization buffer. Incubate at room temperature for 15 minutes.
-1. Spin down the cells, remove the supernatant, and resuspend each sample to ~10<sup>6</sup> cells per ml in wash buffer.
+1. Spin down the cells, remove the supernatant, and resuspend each sample to ~10<sup>6</sup> cells per ml in wash buffer. The wash buffer in this step should be EDTA-free, as residual EDTA will chelate out the copper ion in the subsequent click reaction.
 1. Spin down the cells, remove the supernatant, and resuspend each sample in 500 μl of click reaction buffer. Incubate at room temperature for 30 minutes.
 1. Spin down the cells, remove the supernatant, and resuspend each sample to ~10<sup>6</sup> cells per ml in wash buffer.
 1. Spin down the cells, remove the supernatant, and resuspend each sample to ~10<sup>7</sup> cells per ml in FACS resuspension buffer. Keep on ice and protect from light.
 	- Remember to resuspend at least one EdU-positive control sample in FACS resuspension buffer without PI to serve as the EdU-positive compensation control.
 1. Transfer each sample to a 1 ml micro titer tube that has been placed into a 5 ml flow tube. Keep samples at 4 °C and protected from light.
+
+## Flow Cytometry
+- Run at a low flow setting. High flow rates will give high coefficients of variation and the G1/S/G2 phases won't resolve nicely.
