@@ -34,6 +34,7 @@ ___
 	- 1X PBS
 	- 1 mM EDTA
 	- 1% BSA
+- _Optional:_ Benzonase
 - Fixative solution
 	- 4% (w/v) paraformaldehyde dissolved in 1X PBS by stirring at 60 - 70 °C. Cool to room temperature, filter, and store at 4 °C for up to two weeks.
 - Permeabilization buffer
@@ -58,7 +59,7 @@ ___
 
 ### Procedure
 1. Harvest cells by trypsinization. Save and spin down the media supernatant and wash along with the trypsinized cells if the cells are loosely-adherent or if there are many floaters.
-1. Resuspend the cells to ~10<sup>6</sup> cells per ml in wash buffer; 0.5 - 1 ml per sample is usually fine for this step and all the wash steps below.
+1. Resuspend the cells to ~10<sup>6</sup> cells per ml in wash buffer; 0.5 - 1 ml per sample is usually fine for this step and all the wash steps below. _Optional:_ Include 1:1000 (v/v) Benzonase (≥ 250 U/ml final concentration) in the wash buffer at this step to dissolve clumps.
 1. Spin down the cells, remove the supernatant, and resuspend each sample in 100 μl of fixative solution. Incubate at room temperature for 15 minutes.
 1. Spin down the cells, remove the supernatant, and resuspend each sample to ~10<sup>6</sup> cells per ml in wash buffer.
 1. Spin down the cells, remove the supernatant, and resuspend each sample in 100 μl of permeabilization buffer. Incubate at room temperature for 15 minutes.
