@@ -70,4 +70,7 @@ ___
 1. Transfer each sample to a 1 ml micro titer tube that has been placed into a 5 ml flow tube. Keep samples at 4 °C and protected from light.
 
 ## Flow Cytometry
-- Run at a low flow setting. High flow rates will give high coefficients of variation and the G1/S/G2 phases won't resolve nicely.
+### Considerations
+- While DAPI bound to dsDNA has optimal excitation in the UV range, it can be detected quite well using a violet laser and a 450 nm emission filter. Hence, a cytometer equipped with a UV laser is not required.
+- Try to keep the flow rate as low as possible, as this will help resolve the G0/G1 and S/G2 DNA content peaks. I typically aim for a flow rate that gives me 300 - 600 thresholded events per second for a sample containing about 10<sup>7</sup> cells per ml.
+- Given the above consideration, about 3 minutes of instrument time should be allotted for each sample.
