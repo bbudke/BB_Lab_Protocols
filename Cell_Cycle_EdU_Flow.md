@@ -41,8 +41,7 @@ ___
 - Click reaction buffer
 	- 1X TBS (PBS will cause CuSO<sub>4</sub> to crash out)
 	- 2 mM CuSO<sub>4</sub>
-	- 0.2 μM sulfo-cyanine 5 azide (added from a 1 - 10 mM stock made in 100% DMSO)
-		- 10 uM in Cytometry A (2012) 81A:901-909
+	- 1 μM sulfo-cyanine 5 azide (added from a 1 - 10 mM stock made in 100% DMSO)
 	- 20 mM sodium ascorbate (added from a 1 M stock made in water within the last 15 minutes)
 	- 10% DMSO
 	- Make fresh within minutes of use. Protect from light.
