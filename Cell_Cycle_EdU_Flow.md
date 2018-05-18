@@ -5,7 +5,7 @@ ___
 ## Treatment And Labeling Of Cells
 ### Overview
 - This assay is used to measure cell cycle progression and the DNA synthesis rate in a population of tissue cells. Cell cycle progression is determined by DAPI staining of total DNA content in fixed and permeabilized cells. New DNA synthesis is measured by detection of incorporated 5'-ethynyl-2'-deoxyuridine (EdU), an analog of deoxythymidine. The protocol below is optimized for determining what effect compounds have on these endpoints.
-- Because it is necessary to set up a compensation matrix for flow analysis, EdU-negative and PI-negative controls must be set up as well. Many test compounds also impart some fluorescence to cells, so it is also recommended to have these controls for each concentration of each compound.
+- Because it is necessary to set up a compensation matrix for flow analysis, EdU-negative and DAPI-negative controls must be set up as well. Many test compounds also impart some fluorescence to cells, so it is also recommended to have these controls for each concentration of each compound.
 
 ### Initial Cell Culture
 - Use one or more 6-well plates of tissue cells. Cells should have been seeded at least 20 hours before treatment at a sufficient density to provide 70% confluence in the control wells by the time cells are collected for flow cytometry. This should also be enough to provide 0.5 - 1.0 x 10<sup>6</sup> cells per sample.
@@ -67,7 +67,7 @@ ___
 1. Spin down the cells, remove the supernatant, and resuspend each sample to ~10<sup>6</sup> cells per ml in wash buffer.
 1. Spin down the cells, remove the supernatant, and resuspend each sample to ~10<sup>7</sup> cells per ml in FACS resuspension buffer. Keep on ice and protect from light.
 	- Remember to resuspend at least one EdU-positive control sample in FACS resuspension buffer without DAPI to serve as the EdU-positive compensation control.
-1. Transfer each sample to a 1 ml micro titer tube that has been placed into a 5 ml flow tube. Keep samples at 4 °C and protected from light.
+1. Transfer each sample to a 1 ml micro titer tube that has been placed into a 5 ml flow tube. Keep samples at 4 °C and protected from light. The fixed and stained samples can be stored this way for several days.
 
 ## Flow Cytometry
 ### Considerations
