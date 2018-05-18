@@ -4,7 +4,7 @@ Adapted from ThermoFisher Click-it EdU kit instructions and Sun _et al_ 2012 (Cy
 ___
 ## Treatment And Labeling Of Cells
 ### Overview
-- This assay is used to measure cell cycle progression and the DNA synthesis rate in a population of tissue cells. Cell cycle progression is determined by propidium iodide (PI) staining of total DNA content in fixed and permeabilized cells. New DNA synthesis is measured by detection of incorporated 5'-ethynyl-2'-deoxyuridine (EdU), an analog of deoxythymidine. The protocol below is optimized for determining what effect compounds have on these endpoints.
+- This assay is used to measure cell cycle progression and the DNA synthesis rate in a population of tissue cells. Cell cycle progression is determined by DAPI staining of total DNA content in fixed and permeabilized cells. New DNA synthesis is measured by detection of incorporated 5'-ethynyl-2'-deoxyuridine (EdU), an analog of deoxythymidine. The protocol below is optimized for determining what effect compounds have on these endpoints.
 - Because it is necessary to set up a compensation matrix for flow analysis, EdU-negative and PI-negative controls must be set up as well. Many test compounds also impart some fluorescence to cells, so it is also recommended to have these controls for each concentration of each compound.
 
 ### Initial Cell Culture
@@ -24,8 +24,8 @@ ___
 
 ## Click Reaction To Detect EdU Incorporation
 ### Overview
-- Cells are harvested, washed, fixed, and permeabilized so that total DNA can be stained with PI and incorporated EdU can be tagged with a dye-azide. RNAse is added so that only DNA is stained by PI. EdU is tagged via a cycloaddition reaction between the alkyne group of EdU and the azide group of the dye. The cycloaddition reaction is catalyzed by Cu(I), which is provided by Cu(II) in a mildly-reducing environment. Sodium ascorbate is used as a reducing agent and must be prepared fresh within minutes of use. Sulfo-cyanine 5 azide is used below, though any dye azide can be used.
-- Any DNA stain such as DAPI or PI can be used, as long as there isn't too much bleed-through with the dye used to detect EdU.
+- Cells are harvested, washed, fixed, and permeabilized so that total DNA can be stained with DAPI and incorporated EdU can be tagged with a dye-azide. EdU is tagged via a cycloaddition reaction between the alkyne group of EdU and the azide group of the dye. The cycloaddition reaction is catalyzed by Cu(I), which is provided by Cu(II) in a mildly-reducing environment. Sodium ascorbate is used as a reducing agent and must be prepared fresh within minutes of use. Sulfo-cyanine 5 azide is used below, though any dye azide can be used.
+- Any DNA stain such as DAPI, PI, or 7-AAD can be used, as long as there isn't too much bleed-through with the dye used to detect EdU. DAPI specifically binds dsDNA; the inclusion or omission of an RNAse digestion step does not affect the result. If a dye that significantly binds RNA is used, such as PI, then RNA digestion is strictly required.
 - It is convenient to transfer samples to 1.5 ml tubes following trypsinization and centrifugation; these tubes can be stacked into 50 ml conical vials and spun in a clinical centrifuge. When removing supernatants, decant and leave a small amount to keep the pellet from going dry. To prevent clumping, cells should be spun down at the lowest speed that will give a pellet. This is typically 300g - 500g. Resuspension should also be done as gently as possible; simply pipetting a stream of buffer directly onto the pellet should be enough to completely resuspend it, assuming the cells were not spun down too hard.
 - Time consideration: there are 60 minutes total incubation time and almost half an hour of centrifugation time. This doesn't include handling time. When processing 40 samples following the procedure below, it took me 4 hours from the start of trypsinization to having all the samples in flow tubes.
 
@@ -51,9 +51,8 @@ ___
 	- 1 mM EDTA
 	- 1% BSA
 	- 0.5% Triton X-100
-	- 50 μg/ml DNAse-free RNAse A
-		- Required if PI is used; optional for DAPI
-	- 50 μg/ml PI (also make a smaller aliquot of buffer without PI for the PI-negative controls)
+	- 1 μg/ml DAPI (also make a smaller aliquot of buffer without DAPI for the DAPI-negative controls)
+	- _Optional:_ 50 μg/ml DNAse-free RNAseA (**required** if the DNA stain used also binds RNA)
 - Polypropylene 1 ml micro titer tubes (Genesee 14-144) nested into polystyrene 5 ml flow cytometry tubes (Falcon 352008)
 - Styrofoam box with blue ice packs. The box should be large enough to hold a rack of flow cytometry tubes.
 
@@ -67,7 +66,7 @@ ___
 1. Spin down the cells, remove the supernatant, and resuspend each sample in 500 μl of click reaction buffer. Incubate at room temperature for 30 minutes.
 1. Spin down the cells, remove the supernatant, and resuspend each sample to ~10<sup>6</sup> cells per ml in wash buffer.
 1. Spin down the cells, remove the supernatant, and resuspend each sample to ~10<sup>7</sup> cells per ml in FACS resuspension buffer. Keep on ice and protect from light.
-	- Remember to resuspend at least one EdU-positive control sample in FACS resuspension buffer without PI to serve as the EdU-positive compensation control.
+	- Remember to resuspend at least one EdU-positive control sample in FACS resuspension buffer without DAPI to serve as the EdU-positive compensation control.
 1. Transfer each sample to a 1 ml micro titer tube that has been placed into a 5 ml flow tube. Keep samples at 4 °C and protected from light.
 
 ## Flow Cytometry
