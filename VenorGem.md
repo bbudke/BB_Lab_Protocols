@@ -20,7 +20,7 @@ Mycoplasma tests should be performed at least monthly on all cultures that are c
 - Collect 20 μl of supernatant medium from each culture to be tested.
 	- Ideally, media supernatants should come from cultures that have not had a media change in at least two days and are 50 - 80% confluent.
 - Boil each sample in a water bath for 5 minutes.
-- Centrifuge the samples at maximum speed in a microfuge for 1 minute to pellet any debris. When adding sample to the PCR tubes below, draw the sample close to the meniscus.
+- Centrifuge the samples at maximum speed in a microfuge for 1 minute.
 - Prepare a master mix of the following:
 
 Item | μl per reaction
