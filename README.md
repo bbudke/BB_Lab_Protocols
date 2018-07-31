@@ -18,6 +18,7 @@ ___
 ### Molecular Biology
 - [Gel Drying And Imaging](Gel_Drying_And_Imaging.md)
 - [Preparation Of Topo I-Relaxed Closed Circular DNA](Topo_Relaxed_DNA.md)
+- [CsCl Purification Of Supercoiled Plasmid DNA](CsCl_Plasmid_Prep.md)
 
 ### Cell Biology
 - [DNA Incorporation And Total DNA Analysis By Flow Cytometry](Cell_Cycle_EdU_Flow.md)
@@ -28,4 +29,5 @@ ___
 - [Forward siRNA Transfection](Forward_siRNA_Transfection.md)
 
 ### Routine Tissue Cell Culture
+- [Passaging Adherent Cell Cultures](TC_Passaging.md)
 - [Mycoplasma Testing By PCR](VenorGem.md)
