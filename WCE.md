@@ -2,7 +2,7 @@
 By Brian Budke
 ___
 ## Overview
-- The purpose of this procedure is to extract total cellular protein from growing cells. Samples prepared in this way are typically [quantified for total protein](Protein_Quant.md) and used in subsequent [western blot](Western_Blot.md) experiments. Two lysis buffers and two extract collection methods are described. Both lysis buffers effectively lyse cells but I prefer NETN buffer as the lower detergent concentration makes it more compatible with colorimetric protein quantification assays. The NETN and RIPA recipes provided here are from Bethyl Laboratories; the NETN buffer used here has a higher salt concentration than the Cold Spring Harbor Laboratory recipe.
+- The purpose of this procedure is to extract total cellular protein from growing cells. Samples prepared in this way are typically [quantified for total protein](Protein_Quant.md) and used in subsequent [western blot](Western_Blotting.md) experiments. Two lysis buffers and two extract collection methods are described. Both lysis buffers effectively lyse cells but I prefer NETN buffer as the lower detergent concentration makes it more compatible with colorimetric protein quantification assays. The NETN and RIPA recipes provided here are from Bethyl Laboratories; the NETN buffer used here has a higher salt concentration than the Cold Spring Harbor Laboratory recipe.
 - The assay procedures below assume that cells to be lysed have been grown to 30 - 70% confluence in 6-well cluster plates. This typically provides at least 50 μg of total protein. The amounts of reagent used here should be scaled appropriately according to growth area if growth vessels other than 6-well plates are used (a 6-well is 9.5 cm<sup>2</sup>).
 
 ## Lysis Buffer Options
