@@ -30,6 +30,7 @@ ___
 
 ### Cytology And Microscopy
 - [Cleaning And Silanizing Glass Coverslips](Silanizing_Coverslips.md)
+- [Immunocytochemistry](ICC.md)
 
 ### Routine Tissue Cell Culture
 - [Passaging Adherent Cell Cultures](TC_Passaging.md)
