@@ -19,6 +19,7 @@ ___
 - [CsCl Purification Of Supercoiled Plasmid DNA](CsCl_Plasmid_Prep.md)
 - [Gel Drying And Imaging](Gel_Drying_And_Imaging.md)
 - [Preparation Of Topo I-Relaxed Closed Circular DNA](Topo_Relaxed_DNA.md)
+- [Whole Cell Lysate Protein Extraction From Tissue Cells](WCE.md)
 
 ### Cell Biology
 - [Cell Titer-Glo Assay For Survival](Cell_Glo_Survival.md)
