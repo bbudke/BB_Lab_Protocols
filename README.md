@@ -21,7 +21,7 @@ ___
 - [Preparation Of Topo I-Relaxed Closed Circular DNA](Topo_Relaxed_DNA.md)
 - [Protein SDS-PAGE](SDS-PAGE.md)
 - [Quantitation Of Protein In Samples](Protein_Quant.md)
-- [Western Blotting](Western_Blot.md)
+- [Western Blotting](Western_Blotting.md)
 - [Whole Cell Lysate Protein Extraction From Tissue Cells](WCE.md)
 
 ### Cell Biology
