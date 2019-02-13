@@ -19,6 +19,7 @@ ___
 - [CsCl Purification Of Supercoiled Plasmid DNA](CsCl_Plasmid_Prep.md)
 - [Gel Drying And Imaging](Gel_Drying_And_Imaging.md)
 - [Preparation Of Topo I-Relaxed Closed Circular DNA](Topo_Relaxed_DNA.md)
+- [Protein SDS-PAGE](SDS-PAGE.md)
 - [Quantitation Of Protein In Samples](Protein_Quant.md)
 - [Whole Cell Lysate Protein Extraction From Tissue Cells](WCE.md)
 
