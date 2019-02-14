@@ -6,7 +6,7 @@ This protocol is used to knock down gene expression in mammalian cells using siR
 
 ## Setup
 ### Initial Cell Culture
-- Seed cells into 6-well plates at a density that will give 50 - 70% confluence in the next two days. Scale up by increasing the number of wells, not by increasing the growth area. Jennie Mason has found that the transfection does not work well in any vessel larger than a well of a 6-well plate.
+- Seed cells into 6-well plates at a density that will give 50 - 70% confluence in the next two days. Scale up by increasing the number of wells, not by increasing the growth area per vessel. Jennie Mason has found that the transfection does not work well in any vessel larger than a well of a 6-well plate.
 - Seed cells in 2.0 ml per well of complete medium without antibiotics. The final volume after the Opti-MEM + Lipofectamine + siRNA is going to be 2.5 ml per well.
 - Incubate for 20 - 28 hours.
 
