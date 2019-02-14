@@ -68,4 +68,3 @@ The purpose of this procedure is to perform cytological examination of adherent 
 	- Mounted and sealed samples can be kept for many months at 4 °C protected from light.
 1. Acquire images on the scope.
 1. Use the [BB Macros](https://github.com/bbudke/BB_macros) set for [NIH ImageJ](https://imagej.nih.gov/ij/) to automatically score foci.
-	- For consistency, use the same macro settings to score colonies for each cell line between experiments.
