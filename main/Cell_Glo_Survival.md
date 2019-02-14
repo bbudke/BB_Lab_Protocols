@@ -51,3 +51,4 @@ The procedure below has been modified from the manufacturer's instructions to us
 1. Read luminescence.
 	- Setting the integration time per well to 200 ms is a good starting point.
 	- Read the plates promptly, as the luminescence intensity decays with a half-life of 10s of minutes. This is also why vehicle-only controls are included in each row, as the luminescence signal can noticeably decay even in the time it takes to read a single plate.
+	
