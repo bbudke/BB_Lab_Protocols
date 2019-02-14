@@ -7,7 +7,7 @@ Proteins are separated on an SDS-PAGE and transferred to a PVDF membrane. The pr
 
 ### Materials And Reagents
 - SDS-PAGE run with protein samples
-- PVDF membrane, cut to 8.5 by 5.0 cm
+- PVDF membrane, cut to 9.5 by 6.0 cm
 	- Cut a notch in the upper left corner of the membrane for orientation.
 	- If more than one membrane is being used in an experiment, cut additional notches to distinguish the membranes.
 - Two sheets of Whatman filter paper, cut to the same size as the PVDF membrane plus ~0.5 cm on each side
