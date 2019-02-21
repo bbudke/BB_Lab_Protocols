@@ -71,7 +71,7 @@ Proteins are separated on an SDS-PAGE and transferred to a PVDF membrane. The pr
 1. Wash the blot 3 times in a deep tray with ~ 150 ml TBST for 5 minutes at RT.
 	- During the washes, boot up the CCD imager so that it has time to cool and is ready to use for the next step.
 1. Transfer each membrane to its own small tray. Drain off most of the wash from the membrane without allowing it to dry and add 2 - 3 ml of Western Lightning reagent to each membrane, covering completely. Incubate for 1 minute at RT and then pour off all of the used reagent into a tube and store it at 4 °C.
-	- The Western Lightning reagent can be re-used many times and stored at 4 °C for up to a month, at which point it will have lost about 50% of its detection activity.
+	- The Western Lightning reagent can be re-used many times and stored at 4 °C for several days. This reagent seems to lose most of its activity a few days after being made, but is so potent when it is first made that it can still provide enough signal for strong antibodies after many re-uses.
 1. Acquire two images of each blot on the CCD imager: one image under white light illumination and one image at the same zoom/focus under chemiluminescence mode.
 1. If the blot is to be re-probed, rinse it briefly in TBST and store it at 4 °C in a heat-sealed bag with 1X tris-buffered saline.
 
