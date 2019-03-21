@@ -28,7 +28,7 @@ ___
 - [Cell Titer-Glo Assay For Survival](main/Cell_Glo_Survival.md)
 - [Clonogenic Survial Assay](main/Colony_Formation_TC.md)
 - [DNA Fiber Assay](main/DNA_Fibers.md)
-- [DNA Incorporation And Total DNA Analysis By Flow Cytometry](main/Cell_Cycle_EdU_Flow.md)
+- [Cell Cycle Analysis](main/Cell_Cycle_EdU_Flow.md)
 - [Double Strand Break Repair Pathway Reporter Assay](main/DSBR_Reporter_Jasin.md)
 - [Forward siRNA Transfection](main/Forward_siRNA_Transfection.md)
 

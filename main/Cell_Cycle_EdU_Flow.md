@@ -1,4 +1,4 @@
-# Determination Of Cell Cycle And EdU Incorporation By Flow Cytometry
+# Cell Cycle Analysis
 By Brian Budke
 Adapted from ThermoFisher Click-it EdU kit instructions and Sun _et al_ 2012 (Cytometry A 81A:901-909).
 ___
