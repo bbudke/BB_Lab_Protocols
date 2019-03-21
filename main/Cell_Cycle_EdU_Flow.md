@@ -51,7 +51,7 @@ ___
 	- 1 mM EDTA
 	- 1% BSA
 	- 0.5% Triton X-100
-	- 1 μg/ml DAPI (also make a smaller aliquot of buffer without DAPI for the DAPI-negative controls)
+	- 10 μg/ml DAPI (also make a smaller aliquot of buffer without DAPI for the DAPI-negative controls)
 	- _Optional:_ 50 μg/ml DNAse-free RNAseA (**required** if the DNA stain used also binds RNA)
 - Polypropylene 1 ml micro titer tubes (Genesee 14-144) nested into polystyrene 5 ml flow cytometry tubes (Falcon 352008)
 - Styrofoam box with blue ice packs. The box should be large enough to hold a rack of flow cytometry tubes.
@@ -67,10 +67,10 @@ ___
 1. Spin down the cells, remove the supernatant, and resuspend each sample to ~10<sup>6</sup> cells per ml in wash buffer.
 1. Spin down the cells, remove the supernatant, and resuspend each sample to ~10<sup>7</sup> cells per ml in FACS resuspension buffer. Keep on ice and protect from light.
 	- Remember to resuspend at least one EdU-positive control sample in FACS resuspension buffer without DAPI to serve as the EdU-positive compensation control.
-1. Transfer each sample to a 1 ml micro titer tube that has been placed into a 5 ml flow tube. Keep samples at 4 °C and protected from light.
+1. Transfer each sample to a 1 ml micro titer tube that has been placed into a 5 ml flow tube. Keep samples at 4 °C and protected from light. For optimum DAPI staining, incubate the samples at 4 °C for at least a few hours before analyzing on the flow cytometer.
 
 ## Flow Cytometry
 ### Considerations
-- While DAPI bound to dsDNA has optimal excitation in the UV range, it can be detected quite well using a violet laser and a 450 nm emission filter. Hence, a cytometer equipped with a UV laser is not required.
+- While DAPI bound to dsDNA has optimal excitation in the UV range, it can be detected quite well using a violet laser and a 450 nm emission filter. A cytometer equipped with a UV laser is not required.
 - Try to keep the flow rate as low as possible, as this will help resolve the G0/G1 and S/G2 DNA content peaks. I typically aim for a flow rate that gives me 300 - 600 thresholded events per second for a sample containing about 10<sup>7</sup> cells per ml.
 - Given the above consideration, about 3 minutes of instrument time should be allotted for each sample.
