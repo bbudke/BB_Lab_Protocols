@@ -58,13 +58,13 @@ ___
 
 ### Procedure
 1. Harvest cells by trypsinization. Save and spin down the media supernatant and wash along with the trypsinized cells if the cells are loosely-adherent or if there are many floaters.
-1. Wash by resuspending the cells to ~10<sup>6</sup> cells per ml in wash buffer; 0.5 - 1 ml per sample is usually fine for this step and all the wash steps below. _Optional:_ Include 1:1000 (v/v) Benzonase (≥ 250 U/ml final concentration) in the wash buffer at this step to dissolve clumps.
-1. Fix cells by spinning down the cells, removing the supernatant, and resuspending each sample in 100 μl of fixative solution. Incubate at room temperature for 15 minutes.
-1. Wash the cells by spinning down the cells, removing the supernatant, and resuspending each sample to ~10<sup>6</sup> cells per ml in wash buffer.
-1. Permeabilize the cells by spinning down the cells, removing the supernatant, and resuspending each sample in 100 μl of permeabilization buffer. Incubate at room temperature for 15 minutes.
-1. Wash the cells by spinning down the cells, removing the supernatant, and resuspending each sample to ~10<sup>6</sup> cells per ml in wash buffer. The wash buffer in this step should be EDTA-free, as residual EDTA will chelate out the copper ion in the subsequent click reaction.
-1. Label the cells by spinning down the cells, removing the supernatant, and resuspend each sample in 500 μl of click reaction buffer. Incubate at room temperature for 30 minutes.
-1. Wash the cells by spinning down the cells, removing the supernatant, and resuspending each sample to ~10<sup>6</sup> cells per ml in wash buffer.
+1. Wash by resuspending the cells to ~10<sup>6</sup> cells per ml in wash buffer; 0.5 - 1 ml per sample is usually fine for this step and all the steps below. _Optional:_ Include 1:1000 (v/v) Benzonase (≥ 250 U/ml final concentration) in the wash buffer at this step to dissolve clumps.
+1. Fix cells by spinning down the cells, removing the supernatant, and resuspending each sample in of fixative solution. Incubate at room temperature for 15 minutes.
+1. Wash the cells by spinning down the cells, removing the supernatant, and resuspending each sample in wash buffer.
+1. Permeabilize the cells by spinning down the cells, removing the supernatant, and resuspending each sample in permeabilization buffer. Incubate at room temperature for 15 minutes.
+1. Wash the cells by spinning down the cells, removing the supernatant, and resuspending each sample in wash buffer. The wash buffer in this step should be EDTA-free to avoid chelating out the copper ion in the subsequent click reaction.
+1. Label the cells by spinning down the cells, removing the supernatant, and resuspend each sample in click reaction buffer. Incubate at room temperature for 30 minutes.
+1. Wash the cells by spinning down the cells, removing the supernatant, and resuspending each sample in wash buffer.
 1. Spin down the cells, remove the supernatant, and resuspend each sample to ~10<sup>7</sup> cells per ml in FACS resuspension buffer. Keep on ice and protect from light.
 	- Remember to resuspend at least one EdU-positive control sample in FACS resuspension buffer without DAPI to serve as the EdU-positive compensation control.
 1. Transfer each sample to a 1 ml micro titer tube that has been placed into a 5 ml flow tube. Keep samples at 4 °C and protected from light. For optimum DAPI staining, incubate the samples at 4 °C for at least a few hours before analyzing on the flow cytometer.
