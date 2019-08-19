@@ -84,8 +84,8 @@ TEMED (μl) | 3.37 | 6.75
 1. Combine ladder, protein sample buffer, and 5X SDS-PAGE gel loading buffer as above so that the lane with the ladder has the same volume and salt concentration as the sample lanes.
 1. Combine an appropriate amount of protein sample buffer and 5X SDS-PAGE to provide blank lanes that have the same volume and salt concentration as the sample lanes.
 	- Keeping the amount of salt and other buffer components constant throughout the gel, including the empty lanes, will help reduce ugly anomalies such as concentrated sample lanes stretching out laterally into less concentrated or empty lanes during the gel run.
-1. Transfer the protein samples to be loaded to a boiling water bath and boil for 5 minutes.
-1. Cool the samples to room temperature and spin down in a microfuge for 1 minute at maximum speed. Samples can be kept at room temperature until ready to load.
+1. Transfer the protein samples to be loaded to a boiling water bath and boil for 5 minutes. The blanks don't need to be boiled. Do not boil the ladder.
+1. Cool the samples to room temperature and spin down in a microfuge for 30 seconds at maximum speed. Samples can be kept at room temperature until ready to load.
 
 ### Gel Running
 1. Fill the electrophoresis tank with ~ 200 ml 1X running buffer, insert the gels in their running apparatus, and fill the remaining volume in the cathode and anode chambers with 1X running buffer so that the glass back plates are sticking up above the buffer by about 1 mm.
