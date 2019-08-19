@@ -19,6 +19,7 @@ ___
 	- 1.0% NP-40 (IGEPAL CA-630)
 	- 0.5% sodium deoxycholate
 	- 0.1% SDS
+	- 1:1000 volume Benzonase (Sigma E1014-25KU)
 
 ### Preparation Of Buffers
 1. Make lysis buffers fresh the day of use.
@@ -39,7 +40,7 @@ ___
 1. Wash each well with 1 ml ice-cold PBS. Completely remove all of the wash in order to minimize dilution of the lysis buffer with PBS.
 1. Add 30 - 100 μl of lysis buffer to each well, depending on the expected protein yield. I typically add 50 μl of lysis buffer to each well, which gives a total protein concentration of 3 - 10 mg/ml.
 1. Scrape up cells and transfer each lysate suspension to a 1.5 ml tube on ice. Incubate lysates on ice for 30 minutes.
-	- If RIPA buffer was used, sonication is performed halfway through this incubation to shear DNA and reduce viscosity. Sonication at 50% power for two seconds three times with a cool-down between pulses should be sufficient.
+	- Benzonase is provided in RIPA buffer as an alternative to sonication to shear DNA.
 1. Spin down the lysates at maximum speed in a microfuge at 4 °C for 5 minutes.
 1. Transfer supernatants to clean 1.5 ml tubes on ice. Samples should either be used immediately or stored at -80 °C.
 
