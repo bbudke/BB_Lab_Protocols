@@ -24,7 +24,7 @@ This protocol is used to knock down gene expression in mammalian cells using siR
 	- 250 μl Opti-MEM with 4 μl RNAiMAX Lipofectamine reagent. Add Lipofectamine reagent directly to the medium, do not add it as a drop clinging to the inside of the tube and then mix it in.
 2. Incubate these mixes at room temperature for 5 minutes.
 3. Combine the two mixes above and incubate at room temperature for 20 - 30 minutes.
-4. Add 500 μl of the mix to each well of the 6-well plate(s) containing cells in 2.0 ml antibiotic-free medium, swirl to mix, and return to the incubator for 24 hours.
+4. Add 500 μl of the mix to each well of the 6-well plate(s) containing cells in 2.0 ml antibiotic-free medium, swirl to mix, and return to the incubator for 24 - 48 hours.
 
 Example setup for two reverse transfections, a control and BRCA1 knockdown, each for two wells in a 6-well plate, plus appropriate dead volume:
 1. Prepare mixes of Opti-MEM + siRNA for the non-silencing (NS) control and a BRCA1 knockdown using a cocktail of three siRNAs at equimolar concentrations. The total final concentration of RNA in each well is going to be 75 nM.
