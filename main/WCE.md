@@ -14,7 +14,6 @@ ___
 
 - RIPA buffer:
 	- 50 mM Tris-HCl, pH 8.0
-	- 5 mM EDTA, pH 8.0
 	- 150 mM NaCl
 	- 1.0% NP-40 (IGEPAL CA-630)
 	- 0.5% sodium deoxycholate
