@@ -60,24 +60,21 @@ The transfection parameters and plating densities below are optimized for 293-HE
 
 ## Alternative Transfection Protocol Using Lipofectamine 3000
 ### Overview
-While electroporation is the standard way of introducing pCAGGS, pCBASce, and DSBR reporter plasmids into cells, it results in a high percentage of dead cells. If the number of starting cells is low (e.g., one or two 6-wells of siRNA-transfected U2OS-DR-GFP cells), transfection with Lipofectamine 3000 may be more suitable to ensure that there are enough surviving cells to analyze by flow cytometry. Another benefit of Lipofectamine is that it uses far less plasmid DNA than electroporation.
+While electroporation is the standard way of introducing pCAGGS, pCBASce, and DSBR reporter plasmids into cells, it results in a high percentage of dead cells. If the number of starting cells is low (e.g., one or two 6-wells of siRNA-transfected U2OS-DR-GFP cells), transfection with Lipofectamine 3000 may be more suitable to ensure that there are enough surviving cells to analyze by flow cytometry. Another benefit of Lipofectamine is that it uses far less plasmid DNA than electroporation. The interaction between lipid-DNA complexes and organic solvents such as DMSO is currently unknown, so Lipofectamine transfection at this point is currently not used for samples containing organic solvents. Only forward transfection has been tested so far.
 
 ### Initial Cell Culture
-Cells cultured to about 70% confluence.
+- Adherent cells that will be about 70% confluent in the next 1 - 2 days. Some cells such as U2OS-DR-GFP may show slower growth upon transfection and may need to be growing at higher densities (e.g. 40 - 50%) by the day of transfection to reach 70% in the next 1 - 2 days.
 
 ### Materials, Reagents, And Equipment
 - Same as above, but eletroporation cuvettes and electroporator are replaced by Lipofectamine 3000 kit (Life Technologies).
 
 ### Procedure
-1. If compounds in DMSO are being studied, the same strategy for diluting compounds in 100% DMSO and then diluting in medium can be applied here, with modifications being made to accomodate the 0.25 ml of Opti-MEM + lipid-DNA complexes being added in this procedure. For example, one could make up each 6-well with 1.0 ml medium + 2.25X compound in 1.125% DMSO, 1.0 ml trypsinized cells in medium, and 0.25 ml Opti-MEM + lipid-DNA complexes for 2.25 ml total per well containing 1X compound and 0.5% DMSO.
-1. Collect cells by trypsinization, spin down, resuspend in an appropriate volume of antibiotic-free medium, and add to each 6-well. Each well should contain 2.0 ml medium + cells before Opti-MEM + lipid-DNA complexes are added. There should be enough cells per well to give about 70% confluence at the time of flow cytometry analysis; typically 48 hours after transfection with pCBASce. For 293-DR-GFP cells, it may be enough to plate them to 25% confluence on the day of transfection, but U2OS-DR-GFP cells may need to be plated to 50% confluence in order to reach about 70% confluence 48 hours post-transfection.
+1. Change the media in each well to 2.0 ml fresh antibiotic-free medium if the medium currently in each well contains Lipofectamine from an earlier transfection or any organic solvents. Each well should contain 2.0 ml of medium.
 1. For each well, make the following two mixes, scaled appropriately for the number of wells plus dead volume:
 	- 7.50 μl Lipofectamine 3000 + 117.5 μl Opti-MEM
 	- 1.25 μl plasmid DNA (2.5 μg) + 5.00 μl P3000 reagent (2 μl/μg DNA) + 118.8 μl Opti-MEM
 1. Combine diluted DNA above with an equal volume of diluted Lipofectamine and incubate at room temperature for 5 minutes to form lipid-DNA complexes.
-1. Add 250 μl per well of the above lipid-DNA complexes in Opti-MEM to the 6-wells containing media and cells (and possibly media + DMSO + compound). Each well will contain 2.5 μg DNA and 7.50 μl Lipofectamine 3000. This is a starting point for new transfections and can be optimized over a range of 0.5 - 5.0 μg DNA and 3.75 - 7.50 μl Lipofectamine 3000.
-1. Distribute the cells evenly in each well by shaking the plates five times along the north-south axis, pausing for a couple seconds, and the shaking five times along the east-west axis. Repeat 7 times.
-	- Rotational shaking will cause all the cells to accumulate in the center of the wells.
+1. Add 250 μl per well of the above lipid-DNA complexes in Opti-MEM to the 6-wells for 2.5 ml total final volume. Each well will contain 2.5 μg DNA and 7.50 μl Lipofectamine 3000. This is a starting point for new transfections and can be optimized over a range of 0.5 - 5.0 μg DNA and 3.75 - 7.50 μl Lipofectamine 3000.
 1. Incubate the plates for the desired amount of time post-transfection, typically 24 - 48 hours.
 
 ## Flow Cytometry And Data Analysis
@@ -92,7 +89,7 @@ Cells cultured to about 70% confluence.
 - Flow cytometer equipped with a 488 nm excitation source and a FITC (green), PerCP-Cy5.5 (red), and optionally, a PE (orange) filter.
 	- The orange filter is optional but recommended because the GFP+ population is much easier to separate from the rest of the cells on a green-orange plot than a green-red plot.
 	- We routinely used a BD LSRII system, until it broke and was deemed unrepairable by the core facility. The BD Fortessa systems are now the standard instruments for this assay, though they lack the recommended PE detection filters.
-- Computer with [FlowJo](https://www.flowjo.com/) installed. Other non-proprietary software options for analyzing FCS files (flow cytometry raw data) are available, including Bioconductor packages for R and [Cytoflow](https://bpteague.github.io/cytoflow/), which is a Python program that allows interactive gating.
+- Computer with [FlowJo](https://www.flowjo.com/) installed. Other non-proprietary software options for analyzing FCS files (flow cytometry raw data) are available, including Bioconductor packages for R and [Cytoflow](https://bpteague.github.io/cytoflow/).
 
 ### Procedure
 1. Remove the media from each well, wash with PBS, and collect cells by trypsinization. Spin down the cells in 1.5-ml tubes and carefully remove the supernatant with a pipette.
